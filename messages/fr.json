@@ -1,0 +1,226 @@
+{
+  "Common": {
+    "language": "Langue",
+    "locales": {
+      "en": "Anglais",
+      "fr": "Fran\u00e7ais"
+    }
+  },
+  "Auth": {
+    "login": {
+      "logoAlt": "Logo Tera cash",
+      "title": "Connectez-vous \u00e0 votre compte",
+      "emailLabel": "Adresse e-mail",
+      "emailPlaceholder": "Saisissez votre e-mail",
+      "emailRequired": "L'e-mail est requis",
+      "emailInvalid": "Saisissez une adresse e-mail valide",
+      "passwordLabel": "Mot de passe",
+      "passwordPlaceholder": "Saisissez votre mot de passe",
+      "passwordRequired": "Le mot de passe est requis",
+      "passwordMin": "Le mot de passe doit contenir au moins 8 caract\u00e8res",
+      "showPassword": "Afficher le mot de passe",
+      "hidePassword": "Masquer le mot de passe",
+      "forgotPassword": "Mot de passe oubli\u00e9 ?",
+      "submit": "Connexion"
+    },
+    "forgotPassword": {
+      "title": "R\u00e9initialisez votre mot de passe",
+      "description": "Saisissez votre adresse e-mail et nous vous enverrons les instructions de r\u00e9initialisation.",
+      "emailLabel": "E-mail enregistr\u00e9",
+      "emailPlaceholder": "Saisissez votre e-mail enregistr\u00e9",
+      "emailRequired": "L'e-mail est requis",
+      "emailInvalid": "Saisissez une adresse e-mail valide",
+      "sendCode": "Envoyer le code",
+      "verificationDescription": "Saisissez le code de v\u00e9rification",
+      "verificationHint": "Un code \u00e0 4 chiffres a \u00e9t\u00e9 envoy\u00e9 \u00e0 votre e-mail",
+      "codeDigitLabel": "Chiffre du code",
+      "codeRequired": "Saisissez le code de v\u00e9rification \u00e0 4 chiffres",
+      "resendCode": "Renvoyer le code",
+      "verify": "V\u00e9rifier",
+      "passwordStepTitle": "Cr\u00e9ez un nouveau mot de passe",
+      "passwordStepDescription": "D\u00e9finissez un nouveau mot de passe et confirmez-le pour continuer.",
+      "passwordLabel": "Nouveau mot de passe",
+      "passwordPlaceholder": "Saisissez votre nouveau mot de passe",
+      "passwordRequired": "Le mot de passe est requis",
+      "passwordMin": "Le mot de passe doit contenir au moins 8 caract\u00e8res",
+      "confirmPasswordLabel": "Confirmer le mot de passe",
+      "confirmPasswordPlaceholder": "Saisissez \u00e0 nouveau votre mot de passe",
+      "confirmPasswordRequired": "Veuillez confirmer votre mot de passe",
+      "confirmPasswordMismatch": "Les mots de passe ne correspondent pas",
+      "showPassword": "Afficher le mot de passe",
+      "hidePassword": "Masquer le mot de passe",
+      "resetPassword": "R\u00e9initialiser le mot de passe",
+      "successTitle": "Votre mot de passe a \u00e9t\u00e9 modifi\u00e9 avec succ\u00e8s",
+      "successDescription": "Mot de passe mis \u00e0 jour ! Vous pouvez maintenant continuer",
+      "continueToLogin": "Retour \u00e0 la connexion",
+      "backToLogin": "Retour \u00e0 la connexion"
+    }
+  },
+  "Dashboard": {
+    "overview": {
+      "totalActiveUsers": "Utilisateurs actifs au total",
+      "totalTransactions": "Transactions totales",
+      "successRate": "Taux de r\u00e9ussite des transactions",
+      "vsLastMonth": "vs le mois dernier",
+      "userGrowthChart": {
+        "title": "Croissance des utilisateurs",
+        "change": "+8%",
+        "monthly": "Mensuel",
+        "newSignups": "Nouvelles inscriptions",
+        "highlightDate": "13 mars 2025",
+        "months": {
+          "jan": "Janv",
+          "feb": "F\u00e9vr",
+          "mar": "Mars",
+          "apr": "Avr",
+          "may": "Mai",
+          "jun": "Juin",
+          "jul": "Juil",
+          "aug": "Ao\u00fbt",
+          "sep": "Sept",
+          "oct": "Oct",
+          "nov": "Nov",
+          "dec": "D\u00e9c"
+        }
+      },
+      "kycSubmissionsTable": {
+        "title": "Soumissions KYC",
+        "filters": {
+          "searchPlaceholder": "Rechercher par nom",
+          "searchAriaLabel": "Rechercher des soumissions KYC par nom",
+          "statusPlaceholder": "Tous les statuts",
+          "sortPlaceholder": "Trier par",
+          "statusOptions": {
+            "all": "Tous les statuts",
+            "approved": "Approuv\u00e9",
+            "rejected": "Rejet\u00e9",
+            "pending": "En attente"
+          },
+          "sortOptions": {
+            "newest": "Plus r\u00e9cent",
+            "oldest": "Plus ancien",
+            "nameAsc": "Nom A-Z",
+            "nameDesc": "Nom Z-A"
+          }
+        },
+        "columns": {
+          "no": "N\u00b0",
+          "name": "Nom",
+          "email": "E-mail",
+          "phone": "T\u00e9l\u00e9phone",
+          "country": "Pays",
+          "document": "Document",
+          "date": "Date",
+          "status": "Statut",
+          "action": "Action"
+        },
+        "countries": {
+          "france": "France"
+        },
+        "documents": {
+          "passport": "Passeport",
+          "idCard": "Carte d'identit\u00e9"
+        },
+        "statuses": {
+          "approved": "Approuv\u00e9",
+          "rejected": "Rejet\u00e9",
+          "pending": "En attente"
+        },
+        "viewUser": "Voir {name}",
+        "emptyMessage": "Aucune soumission KYC trouv\u00e9e."
+      }
+    },
+    "users": {
+      "usersTable": {
+        "filters": {
+          "searchPlaceholder": "Rechercher par nom",
+          "searchAriaLabel": "Rechercher des utilisateurs par nom",
+          "statusPlaceholder": "Tous les statuts",
+          "sortPlaceholder": "Trier par",
+          "statusOptions": {
+            "all": "Tous les statuts",
+            "active": "Actif",
+            "deleted": "Supprim\u00e9",
+            "loggedOut": "D\u00e9connect\u00e9"
+          },
+          "sortOptions": {
+            "newest": "Plus r\u00e9cent",
+            "oldest": "Plus ancien",
+            "nameAsc": "Nom A-Z",
+            "nameDesc": "Nom Z-A"
+          }
+        },
+        "columns": {
+          "no": "N\u00b0",
+          "name": "Nom",
+          "email": "E-mail",
+          "phone": "T\u00e9l\u00e9phone",
+          "country": "Pays",
+          "date": "Date",
+          "status": "Statut",
+          "action": "Action"
+        },
+        "countries": {
+          "france": "France"
+        },
+        "statuses": {
+          "active": "Actif",
+          "deleted": "Supprim\u00e9",
+          "loggedOut": "D\u00e9connect\u00e9"
+        },
+        "viewUser": "Voir {name}",
+        "emptyMessage": "Aucun utilisateur trouv\u00e9."
+      }
+    },
+    "logoAlt": "Logo Tera cash",
+    "openSidebar": "Ouvrir la barre lat\u00e9rale",
+    "closeSidebar": "Fermer la barre lat\u00e9rale",
+    "closeSidebarOverlay": "Fermer le fond de la barre lat\u00e9rale",
+    "searchPlaceholder": "Rechercher...",
+    "searchAriaLabel": "Rechercher dans le tableau de bord",
+    "userAvatarAlt": "Avatar utilisateur",
+    "notifications": {
+      "openAriaLabel": "Ouvrir les notifications",
+      "closeAriaLabel": "Fermer les notifications",
+      "settingsAriaLabel": "Param\u00e8tres des notifications",
+      "title": "Notifications",
+      "view": "Voir",
+      "markAllRead": "Tout marquer comme lu",
+      "viewAll": "Voir toutes les notifications",
+      "items": {
+        "newCustomer": {
+          "title": "Nouveau client",
+          "body": "Un nouvel utilisateur vient de s'inscrire.",
+          "time": "Il y a 2 min"
+        },
+        "kycSubmission": {
+          "title": "Soumissions KYC",
+          "body": "Un utilisateur vient d'envoyer des documents pour la v\u00e9rification KYC.",
+          "time": "Il y a 1 h"
+        },
+        "transactionSuccess": {
+          "title": "Transaction",
+          "body": "Un client a effectu\u00e9 une nouvelle transaction avec succ\u00e8s.",
+          "time": "Il y a 1 h"
+        },
+        "transactionFailed": {
+          "title": "Transaction",
+          "body": "La nouvelle transaction d'un client a \u00e9chou\u00e9",
+          "time": "Il y a 1 h"
+        }
+      }
+    },
+    "nav": {
+      "dashboard": "Tableau de bord",
+      "users": "Utilisateurs",
+      "kycSubmissions": "Soumissions KYC",
+      "transactions": "Transactions",
+      "settings": "Param\u00e8tres"
+    },
+    "home": {
+      "eyebrow": "Tableau de bord",
+      "title": "Pilotez vos op\u00e9rations depuis un seul endroit",
+      "description": "Utilisez la barre lat\u00e9rale pour naviguer entre les utilisateurs, les v\u00e9rifications KYC, les transactions et les param\u00e8tres de votre espace d'administration."
+    }
+  }
+}

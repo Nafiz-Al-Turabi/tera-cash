@@ -1,0 +1,226 @@
+{
+  "Common": {
+    "language": "Language",
+    "locales": {
+      "en": "English",
+      "fr": "French"
+    }
+  },
+  "Auth": {
+    "login": {
+      "logoAlt": "Tera cash logo",
+      "title": "Login to your account",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Input your email",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Enter a valid email address",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Input your password",
+      "passwordRequired": "Password is required",
+      "passwordMin": "Password must be at least 8 characters",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "forgotPassword": "Forgot your password?",
+      "submit": "Login"
+    },
+    "forgotPassword": {
+      "title": "Reset your password",
+      "description": "Enter your email address and we'll send you password reset instructions.",
+      "emailLabel": "Registered Email",
+      "emailPlaceholder": "Input your registered email",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Enter a valid email address",
+      "sendCode": "Send Code",
+      "verificationDescription": "Enter verification code",
+      "verificationHint": "A 4-digit code was sent to your email",
+      "codeDigitLabel": "Code digit",
+      "codeRequired": "Enter the 4-digit verification code",
+      "resendCode": "Resend Code",
+      "verify": "Verify",
+      "passwordStepTitle": "Create a new password",
+      "passwordStepDescription": "Set a new password for your account and confirm it to continue.",
+      "passwordLabel": "New Password",
+      "passwordPlaceholder": "Input your new password",
+      "passwordRequired": "Password is required",
+      "passwordMin": "Password must be at least 8 characters",
+      "confirmPasswordLabel": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter your password",
+      "confirmPasswordRequired": "Please confirm your password",
+      "confirmPasswordMismatch": "Passwords do not match",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "resetPassword": "Reset Password",
+      "successTitle": "You successfully changed your password",
+      "successDescription": "Password updated! You're all set to continue",
+      "continueToLogin": "Back To Login",
+      "backToLogin": "Back To Login"
+    }
+  },
+  "Dashboard": {
+    "overview": {
+      "totalActiveUsers": "Total active users",
+      "totalTransactions": "Total Transactions",
+      "successRate": "Transaction success rate",
+      "vsLastMonth": "vs last month",
+      "userGrowthChart": {
+        "title": "User Growth",
+        "change": "+8%",
+        "monthly": "Monthly",
+        "newSignups": "New signups",
+        "highlightDate": "Mar 13, 2025",
+        "months": {
+          "jan": "Jan",
+          "feb": "Feb",
+          "mar": "Mar",
+          "apr": "Apr",
+          "may": "May",
+          "jun": "Jun",
+          "jul": "Jul",
+          "aug": "Aug",
+          "sep": "Sept",
+          "oct": "Oct",
+          "nov": "Nov",
+          "dec": "Dec"
+        }
+      },
+      "kycSubmissionsTable": {
+        "title": "KYC Submissions",
+        "filters": {
+          "searchPlaceholder": "Search by name",
+          "searchAriaLabel": "Search KYC submissions by name",
+          "statusPlaceholder": "All Status",
+          "sortPlaceholder": "Sort by",
+          "statusOptions": {
+            "all": "All Status",
+            "approved": "Approved",
+            "rejected": "Rejected",
+            "pending": "Pending"
+          },
+          "sortOptions": {
+            "newest": "Newest",
+            "oldest": "Oldest",
+            "nameAsc": "Name A-Z",
+            "nameDesc": "Name Z-A"
+          }
+        },
+        "columns": {
+          "no": "No",
+          "name": "Name",
+          "email": "Email",
+          "phone": "Phone",
+          "country": "Country",
+          "document": "Document",
+          "date": "Date",
+          "status": "Status",
+          "action": "Action"
+        },
+        "countries": {
+          "france": "France"
+        },
+        "documents": {
+          "passport": "Passport",
+          "idCard": "ID Card"
+        },
+        "statuses": {
+          "approved": "Approved",
+          "rejected": "Rejected",
+          "pending": "Pending"
+        },
+        "viewUser": "View {name}",
+        "emptyMessage": "No KYC submissions found."
+      }
+    },
+    "users": {
+      "usersTable": {
+        "filters": {
+          "searchPlaceholder": "Search by name",
+          "searchAriaLabel": "Search users by name",
+          "statusPlaceholder": "All Status",
+          "sortPlaceholder": "Sort by",
+          "statusOptions": {
+            "all": "All Status",
+            "active": "Active",
+            "deleted": "Deleted",
+            "loggedOut": "Logged out"
+          },
+          "sortOptions": {
+            "newest": "Newest",
+            "oldest": "Oldest",
+            "nameAsc": "Name A-Z",
+            "nameDesc": "Name Z-A"
+          }
+        },
+        "columns": {
+          "no": "No",
+          "name": "Name",
+          "email": "Email",
+          "phone": "Phone",
+          "country": "Country",
+          "date": "Date",
+          "status": "Status",
+          "action": "Action"
+        },
+        "countries": {
+          "france": "France"
+        },
+        "statuses": {
+          "active": "Active",
+          "deleted": "Deleted",
+          "loggedOut": "Logged out"
+        },
+        "viewUser": "View {name}",
+        "emptyMessage": "No users found."
+      }
+    },
+    "logoAlt": "Tera cash logo",
+    "openSidebar": "Open sidebar",
+    "closeSidebar": "Close sidebar",
+    "closeSidebarOverlay": "Close sidebar overlay",
+    "searchPlaceholder": "Search...",
+    "searchAriaLabel": "Search dashboard",
+    "userAvatarAlt": "User avatar",
+    "notifications": {
+      "openAriaLabel": "Open notifications",
+      "closeAriaLabel": "Close notifications",
+      "settingsAriaLabel": "Notification settings",
+      "title": "Notifications",
+      "view": "View",
+      "markAllRead": "Mark all as read",
+      "viewAll": "View All Notifications",
+      "items": {
+        "newCustomer": {
+          "title": "New Customer",
+          "body": "A new user has just signed up.",
+          "time": "2m ago"
+        },
+        "kycSubmission": {
+          "title": "KYC Submissions",
+          "body": "A user just submitted documents for KYC verification.",
+          "time": "1h ago"
+        },
+        "transactionSuccess": {
+          "title": "Transaction",
+          "body": "A customer successfully made a new transaction.",
+          "time": "1h ago"
+        },
+        "transactionFailed": {
+          "title": "Transaction",
+          "body": "A customer's new transaction was failed",
+          "time": "1h ago"
+        }
+      }
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "users": "Users",
+      "kycSubmissions": "KYC Submissions",
+      "transactions": "Transactions",
+      "settings": "Settings"
+    },
+    "home": {
+      "eyebrow": "Dashboard",
+      "title": "Control your operation from one place",
+      "description": "Use the sidebar to move through users, KYC checks, transactions, and settings in your admin workspace."
+    }
+  }
+}
